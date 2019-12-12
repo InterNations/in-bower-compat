@@ -1,0 +1,10 @@
+{
+  "name": "in-bower-compat",
+  "version": "1.0.0",
+  "description": "Backward compatibility package for Bower components",
+  "main": "index.js",
+  "repository": "git@github.com:InterNations/in-bower-compat.git",
+  "author": "InterNations <dev@internations.org>",
+  "license": "Unlicensed",
+  "private": true
+}

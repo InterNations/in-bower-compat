@@ -1,0 +1,24 @@
+{
+  "name": "Intro.js",
+  "description": "Better introductions for websites and features with a step-by-step guide for your projects",
+  "author": "Vitor Balocco",
+  "homepage": "https://github.com/vitorbal/intro.js",
+  "keywords": [
+    "demo",
+    "intro",
+    "guided tour",
+    "onboarding"
+  ],
+  "main": [
+    "intro.js",
+    "introjs.css"
+  ],
+  "_release": "74d42949af",
+  "_resolution": {
+    "type": "commit",
+    "commit": "74d42949af55ca7d9b9c3f74c024c0f46d11e2fa"
+  },
+  "_source": "git://github.com/vitorbal/intro.js.git",
+  "_target": "74d42949af55ca7d9b9c3f74c024c0f46d11e2fa",
+  "_originalSource": "vitorbal/intro.js"
+}

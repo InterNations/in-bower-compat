@@ -1,0 +1,63 @@
+.introjs-overlay {
+  position: absolute;
+  z-index: 80;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+}
+.introjs-showElement {
+  z-index: 82 !important;
+}
+.introjs-relativePosition {
+  position: relative;
+}
+.introjs-disableInteraction {
+  z-index: 99999998;
+  position: absolute;
+}
+.introjs-tooltipLayer {
+  position: absolute;
+  z-index: 99999999;
+}
+.introjs-arrow:after {
+  position: absolute;
+  border: 10px solid white;
+  content: '';
+}
+.introjs-arrow.introjs-arrow-bottom:after {
+  bottom: -19px;
+  left: 50%;
+  -webkit-transform: translateX(-20px);
+      -ms-transform: translateX(-20px);
+          transform: translateX(-20px);
+  border-color: white transparent transparent transparent;
+}
+.introjs-arrow.introjs-arrow-left-top:after {
+  left: -19px;
+  top: 20px;
+  border-color: transparent white transparent transparent;
+}
+.introjs-arrow.introjs-arrow-right-top:after {
+  right: -19px;
+  top: 20px;
+  border-color: transparent transparent transparent white;
+}
+.introjs-arrow.introjs-arrow-top-right:after {
+  top: -19px;
+  right: 20px;
+  border-color: transparent transparent white transparent;
+}
+.introjs-arrow.introjs-arrow-top-left:after {
+  top: -19px;
+  left: 20px;
+  border-color: transparent transparent white transparent;
+}
+.introjs-arrow.introjs-arrow-top-middle:after {
+  top: -19px;
+  left: 50%;
+  -webkit-transform: translateX(-20px);
+      -ms-transform: translateX(-20px);
+          transform: translateX(-20px);
+  border-color: transparent transparent white transparent;
+}

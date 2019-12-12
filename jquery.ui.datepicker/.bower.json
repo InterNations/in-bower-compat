@@ -1,0 +1,13 @@
+{
+  "name": "jquery.ui.datepicker",
+  "homepage": "https://github.com/InterNations/jqueryui-datepicker",
+  "_release": "4c311d26de",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "4c311d26de5d73bdd8a596e1ba63edee002ca9b5"
+  },
+  "_source": "git://github.com/InterNations/jqueryui-datepicker.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/InterNations/jqueryui-datepicker.git"
+}

@@ -1,0 +1,78 @@
+{
+    "env": {
+        "amd": true,
+        "browser": true
+    },
+    // 0 - allowed
+    // 1 - warning
+    // 2 - error
+    "rules": {
+        // Disallow declaration of variables already declared in the outer scope
+        "no-shadow": 0,
+        // Disallow use of new operator when not part of the assignment or comparison
+        "no-new": 0,
+        // Disallow dangling underscores in identifiers
+        "no-underscore-dangle": 0,
+        // Disallow use of multiple spaces
+        "no-multi-spaces": 0,
+        // Require return statements to either always or never specify values
+        "consistent-return": 0,
+
+        // one declaration for uninitialized variables, one declaration PER initialized variable
+        "one-var": [2, {
+            "uninitialized": "always",
+            "initialized": "never"
+        }],
+
+        // Disallow use of variables before they are defined
+        // except named function definitions
+        "no-use-before-define": [2, "nofunc"],
+        "no-multiple-empty-lines": 2,
+        // Enforce single quotes
+        "quotes": [2, "single"],
+        "eqeqeq": [2, "allow-null"],
+        // Require immediate function invocation to be wrapped in parentheses
+        "wrap-iife":  [2, "inside"],
+        // Encourages use of dot notation whenever possible
+        "dot-notation": [2, { "allowKeywords": false }],
+        // Disallow declaration of variables that are not used in the code
+        "no-unused-vars": 2,
+        // Ensures that all function bodies are strict mode code, while global code is not
+        "strict": [2, "function"],
+
+        //
+        // Stylistic rules
+        // Enforce one true comma style: before line break
+        "comma-style": [2, "last"],
+        // require a space after certain keywords (if, else, for, while, do, switch, try, catch, finally, and with)
+        "space-after-keywords": [2, "always"],
+        // Disallow spaces between the function name or function keyword and the opening parenthesis
+        "space-before-function-paren": [2, "never"],
+        // Disallow spaces inside parentheses
+        "space-in-parens": 2,
+        // Require space before blocks
+        "space-before-blocks": 2,
+        // 4 spaces indentation
+        "indent": [2, 4],
+        // Require a capital letter for constructors
+        "new-cap": [2, {
+            "capIsNewExceptions": [
+                "Object",
+                "Function",
+                "Number",
+                "String",
+                "Boolean",
+                "Date",
+                "Array",
+                "Symbol",
+                "RegExp",
+
+                // $.Deferred
+                "Deferred",
+
+                // $.Event
+                "Event"
+            ]
+        }]
+    }
+}

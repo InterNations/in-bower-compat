@@ -1,0 +1,12 @@
+{
+  "name": "zxcvbn",
+  "homepage": "https://github.com/lowe/zxcvbn",
+  "_release": "7317838cea",
+  "_resolution": {
+    "type": "commit",
+    "commit": "7317838cea898641fdccae24a4856e93ccc2b354"
+  },
+  "_source": "git://github.com/lowe/zxcvbn.git",
+  "_target": "7317838cea898641fdccae24a4856e93ccc2b354",
+  "_originalSource": "zxcvbn"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "timePicker",
+  "homepage": "https://github.com/InterNations/timePicker",
+  "_release": "86ec84b368",
+  "_resolution": {
+    "type": "commit",
+    "commit": "86ec84b3684095571763702dbef5d547e0a5cdbc"
+  },
+  "_source": "git://github.com/InterNations/timePicker.git",
+  "_target": "86ec84b3684095571763702dbef5d547e0a5cdbc",
+  "_originalSource": "InterNations/timePicker"
+}

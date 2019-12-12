@@ -1,0 +1,12 @@
+{
+  "name": "mailcheck",
+  "homepage": "https://github.com/Kicksend/mailcheck",
+  "_release": "13a666a1d7",
+  "_resolution": {
+    "type": "commit",
+    "commit": "13a666a1d70e01764528b20ca24b47df78b21f00"
+  },
+  "_source": "git://github.com/Kicksend/mailcheck.git",
+  "_target": "13a666a1d70e01764528b20ca24b47df78b21f00",
+  "_originalSource": "git://github.com/Kicksend/mailcheck.git"
+}
